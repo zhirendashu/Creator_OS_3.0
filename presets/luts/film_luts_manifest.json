@@ -1,0 +1,25 @@
+{
+  "film_simulations": [
+    {
+      "name": "Fujifilm_Classic_Chrome.cube",
+      "style": "昭和色彩 / 富士经典正片",
+      "target": "F-Log / Rec.709"
+    },
+    {
+      "name": "Fujifilm_PRO_Neg_Hi.cube",
+      "style": "高对比纪实人像",
+      "target": "S-Log3 / Rec.709"
+    },
+    {
+      "name": "CineStill_800T_Tungsten.cube",
+      "style": "复古夜景霓光 / 电影胶片颗粒",
+      "target": "C-Log / Rec.709"
+    },
+    {
+      "name": "Kodak_Gold_200_Warm.cube",
+      "style": "暖阳复古感",
+      "target": "Rec.709"
+    }
+  ],
+  "ocio_workflow": "OpenColorIO好莱坞色彩管理框架"
+}

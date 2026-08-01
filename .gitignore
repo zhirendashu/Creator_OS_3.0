@@ -1,0 +1,43 @@
+# ==================================
+# 🌲 Creator OS 3.0 - Git Ignore Rules
+# ==================================
+
+# 1. Media & Binary Assets (Do NOT upload large video/audio files)
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 2. Large Local Indexes & Cache
+eagle_material_index.json
+*.info/
+*.info
+*.cache
+
+# 3. Temp & Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# 4. OS & IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp
